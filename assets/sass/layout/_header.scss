@@ -1,0 +1,57 @@
+nav {
+    top: 20px;
+    width: 100%;
+    background-color: #EDEDED;
+    height: 100px;
+    align-items: center;
+    
+
+
+
+
+    .prosecurse-menu {
+        display: flex;
+        gap: 196px;
+        align-items: center;
+        top: 20px;
+        justify-content: center;
+    
+        
+
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            
+            font-weight: 400px;
+            font-size: 15px;
+            line-height: 100px;
+
+
+            color: white;
+            list-style: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+    }
+
+    .logo{
+        display: flex;
+        gap: 20px;
+        color: black;
+        
+    }
+
+
+
+
+
+
+}

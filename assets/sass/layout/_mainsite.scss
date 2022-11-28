@@ -1,0 +1,230 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+
+    .bg-card {
+
+
+
+        .background {
+            background-image: url("../imgs/cover.png");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 752px;
+            background-position: center;
+            background-size: cover;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                align-items: center;
+                position: absolute;
+                justify-content: start;
+            }
+
+            h1 {
+                font-size: 100px;
+                max-width: 700px;
+
+            }
+
+            h4 {
+                font-size: 40px;
+                max-width: 700px;
+                color: #737373;
+            }
+
+            .btn1 {
+                width: 182px;
+                height: 48px;
+                border-radius: 37px;
+                color: white;
+                background-color: #784F33;
+            }
+
+            .btn2 {
+                width: 182px;
+                height: 48px;
+                border-radius: 37px;
+                border-color: #784F33;
+            }
+
+
+        }
+
+
+    }
+}
+
+
+
+.header-card {
+
+    position: absolute;
+    top: 650px;
+    background-color: transparent;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+    height: 300px;
+
+    .FlexContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+
+
+
+
+
+        div {
+
+            width: 30%;
+            height: 216px;
+
+
+
+            box-sizing: border-box;
+        }
+    }
+}
+
+// HEADER SECTION END
+
+// every-client start
+.every-client {
+
+
+    .text-every-client {
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 20px;
+            max-width: 1500px;
+        }
+    }
+
+    .Flex1 {
+        display: flex;
+        flex-wrap: nowrap;
+
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        background-color: #FAFAFA;
+        height: 70vh;
+        overflow: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        div {
+
+            height: 200px;
+            margin: 5px;
+            background-color: lightblue;
+        }
+    }
+
+}
+
+// every-client end
+
+
+// Practice-advice start
+
+.Practice-advice {
+
+
+    .text-practice-advice {
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 20px;
+            max-width: 1500px;
+        }
+    }
+
+    .Flex2 {
+        display: flex;
+        flex-wrap: nowrap;
+
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        background-color: #FAFAFA;
+        height: 80vh;
+        overflow: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        div {
+            width: 230px;
+            height: 202px;
+            margin: 5px;
+            background-color: lightblue;
+        }
+    }
+
+}
+
+// Practice-advice end
+
+.who-we-are {
+    .who-we-are-text {
+        h1 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 20px;
+            max-width: 1500px;
+        }
+    }
+
+    .Flex-3 {
+        display: flex;
+        flex-wrap: nowrap;
+
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        background-color: #FAFAFA;
+        height: 80vh;
+        overflow: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .who-we-are-text1 {
+            display: flex;
+            flex-direction: column;
+        }
+    
+
+        .who-we-are-text2{
+            display: flex;
+        }
+        .who-we-are-text3{
+            display: flex;
+        }
+    }
+
+}

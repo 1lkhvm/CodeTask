@@ -1,0 +1,197 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  top: 20px;
+  width: 100%;
+  background-color: #EDEDED;
+  height: 100px;
+  align-items: center;
+}
+nav .prosecurse-menu {
+  display: flex;
+  gap: 196px;
+  align-items: center;
+  top: 20px;
+  justify-content: center;
+}
+nav .prosecurse-menu .menu {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 100px;
+  color: white;
+  list-style: none;
+}
+nav .prosecurse-menu .menu li a {
+  text-decoration: none;
+}
+nav .logo {
+  display: flex;
+  gap: 20px;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+main .bg-card .background {
+  background-image: url("../imgs/cover.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 752px;
+  background-position: center;
+  background-size: cover;
+}
+main .bg-card .background .text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  position: absolute;
+  justify-content: start;
+}
+main .bg-card .background h1 {
+  font-size: 100px;
+  max-width: 700px;
+}
+main .bg-card .background h4 {
+  font-size: 40px;
+  max-width: 700px;
+  color: #737373;
+}
+main .bg-card .background .btn1 {
+  width: 182px;
+  height: 48px;
+  border-radius: 37px;
+  color: white;
+  background-color: #784F33;
+}
+main .bg-card .background .btn2 {
+  width: 182px;
+  height: 48px;
+  border-radius: 37px;
+  border-color: #784F33;
+}
+
+.header-card {
+  position: absolute;
+  top: 650px;
+  background-color: transparent;
+  left: 0;
+  bottom: 60px;
+  width: 100%;
+  height: 300px;
+}
+.header-card .FlexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.header-card .FlexContainer div {
+  width: 30%;
+  height: 216px;
+  box-sizing: border-box;
+}
+
+.every-client .text-every-client {
+  justify-content: center;
+}
+.every-client .text-every-client h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.every-client .text-every-client h4 {
+  text-align: center;
+  font-size: 20px;
+  max-width: 1500px;
+}
+.every-client .Flex1 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  background-color: #FAFAFA;
+  height: 70vh;
+  overflow: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.every-client .Flex1 div {
+  height: 200px;
+  margin: 5px;
+  background-color: lightblue;
+}
+
+.Practice-advice .text-practice-advice {
+  justify-content: center;
+}
+.Practice-advice .text-practice-advice h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.Practice-advice .text-practice-advice h4 {
+  text-align: center;
+  font-size: 20px;
+  max-width: 1500px;
+}
+.Practice-advice .Flex2 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  background-color: #FAFAFA;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Practice-advice .Flex2 div {
+  width: 230px;
+  height: 202px;
+  margin: 5px;
+  background-color: lightblue;
+}
+
+.who-we-are .who-we-are-text h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.who-we-are .who-we-are-text h4 {
+  text-align: center;
+  font-size: 20px;
+  max-width: 1500px;
+}
+.who-we-are .Flex-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  background-color: #FAFAFA;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.who-we-are .Flex-3 .who-we-are-text1 {
+  display: flex;
+  flex-direction: column;
+}
+.who-we-are .Flex-3 .who-we-are-text2 {
+  display: flex;
+}
+.who-we-are .Flex-3 .who-we-are-text3 {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
